@@ -1,4 +1,4 @@
-# MixedDislocations
+# Mixed Dislocations
 
 Scripts to generate systems containing quadrupoles of dislocations to be used to run molecular dynamics simulations with [Lammps](https://lammps.sandia.gov/). All the dislocations are of the type  1/2<111> and the glide plane is {110} in b.c.c. crystals (Fe).
 
