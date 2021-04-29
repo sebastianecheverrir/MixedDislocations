@@ -101,8 +101,8 @@ df['y_norm'] = df['y_norm'].round(10)
 df['z_norm'] = df['z_norm'].round(10)
 
 #calculating components of the burgers vector
-df['b_z'] = (-burgers*np.cos(df['angle'])).round(10)
-df['b_x'] = (burgers*np.sin(df['angle'])).round(10)
+df['b_z'] = (np.abs(burgers*np.cos(df['angle']))).round(10)
+df['b_x'] = (np.abs(burgers*np.sin(df['angle']))).round(10)
 
 #converting angle to  degrees
 df['angle'] = (df['angle']*180/np.pi).round(10)
