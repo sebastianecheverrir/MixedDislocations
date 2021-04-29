@@ -1,6 +1,6 @@
 # MixedDislocations
 
-Scripts to generate systems containing quadrupoles of dislocations to be used to run molecular dynamics simulations with [Lammps](https://lammps.sandia.gov/). All the dislocations are of the type  1/2<111> and the glide pane is {110} in b.c.c. crystals (Fe).
+Scripts to generate systems containing quadrupoles of dislocations to be used to run molecular dynamics simulations with [Lammps](https://lammps.sandia.gov/). All the dislocations are of the type  1/2<111> and the glide plane is {110} in b.c.c. crystals (Fe).
 
 The character of the dislocations is given by their angle, as shown in the following table. The x, y and z values represent the orientation of the crystal in the simulation box. For each dislocation character, a folder is included. To generate the system, the execute the bash file  `main_Fe_mixed.sh`. It produces a file called `data.FeC_mixed_Relaxed` contain the dislocation quadrupole (and an interstitial C atom.)
 
