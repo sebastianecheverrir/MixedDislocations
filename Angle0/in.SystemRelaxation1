@@ -16,7 +16,7 @@ pair_coeff       * * FeC-Becquart2013.eam   Fe
 #################################################
 #preparing relaxation
 thermo     100
-dump equilibration all custom 10 dump.Fe_mixed_Relaxed id type xu yu zu
+#dump equilibration all custom 10 dump.Fe_mixed_Relaxed id type xu yu zu
 min_style  cg
 #fix        1 all box/relax iso 0.0 vmax 0.001
 
