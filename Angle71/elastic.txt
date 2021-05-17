@@ -6,8 +6,8 @@ elastic Voigt
 
 # Actual crystal orientation
 orientation
-[010]
+[-12-1]
 [-101]
-[101]
+[111]
 
 

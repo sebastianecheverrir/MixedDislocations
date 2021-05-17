@@ -50,10 +50,10 @@ rm log.lammps data.FeC_mixed_UnRelaxed data.Fe_mixed_Relaxed Fe_mixed.lmp data.F
 #Using atomsk to generate the unrelaxed quadrupole
 
 atomsk --create bcc 2.8553122 Fe orient  [121]   [-101]    [1-11] \
--duplicate 8 8 3 \
+-duplicate 6 8 3 \
 -prop elastic.txt \
--disloc 0.251*box 0.251*box mixed z y 0.0 0.0 -2.472773 \
--disloc 0.251*box 0.751*box mixed z y 0.0 0.0 2.472773 \
+-disloc 0.251*box 0.25*box mixed z y 0.0 0.0 -2.472773 \
+-disloc 0.251*box 0.75*box mixed z y 0.0 0.0 2.472773 \
 -disloc 0.751*box 0.251*box mixed z y 0.0 0.0 2.472773 \
 -disloc 0.751*box 0.751*box mixed z y 0.0 0.0 -2.472773 \
 Fe_mixed.lmp
